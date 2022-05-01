@@ -25,7 +25,6 @@ class ViewController: UIViewController {
         present(lineUp!, animated: true, completion: nil)
     } // 수원삼성블루윙즈 선발 라인업으로 가는 버튼
     
-   
     @IBAction func goForecast(_ sender: UIButton) {
         // 경기장 날씨 url 연결
         let forecastUrl = NSURL(string: "https://weather.naver.com/today/02115140")
@@ -61,6 +60,4 @@ class ViewController: UIViewController {
         let bluewingsSafariView: SFSafariViewController = SFSafariViewController(url: bluewingsUrl! as URL)
         self.present(bluewingsSafariView, animated: true, completion: nil)
     }
-    
 }
-
