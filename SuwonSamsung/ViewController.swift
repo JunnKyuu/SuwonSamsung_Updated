@@ -28,7 +28,7 @@ class ViewController: UIViewController {
    
     @IBAction func goForecast(_ sender: UIButton) {
         // 경기장 날씨 url 연결
-        let forecastUrl = NSURL(string: "https://www.accuweather.com/ko/kr/uman-dong/1849943/current-weather/1849943")
+        let forecastUrl = NSURL(string: "https://weather.naver.com/today/02115140")
         let forecastSafariVIew: SFSafariViewController = SFSafariViewController(url: forecastUrl! as URL)
         self.present(forecastSafariVIew, animated: true, completion: nil)
     }
