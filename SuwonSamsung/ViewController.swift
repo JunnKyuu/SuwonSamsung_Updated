@@ -62,14 +62,3 @@ class ViewController: UIViewController {
     }
 }
 
-class ViewContoller: UITabBarController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-               
-        self.tabBar.tintColor = .black
-        self.tabBar.unselectedItemTintColor = .blue
-        self.tabBar.isTranslucent = true
-        self.tabBar.barTintColor = .white
-    }
-}
