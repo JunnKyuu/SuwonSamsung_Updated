@@ -61,4 +61,14 @@ class ViewController: UIViewController {
         self.present(bluewingsSafariView, animated: true, completion: nil)
     }
 }
-
+class tabBarController: UITabBarController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+      
+        self.tabBar.tintColor = .white
+        self.tabBar.unselectedItemTintColor = .black
+        self.tabBar.isTranslucent = true
+        //self.tabBar.barTintColor = .white
+    }
+}
