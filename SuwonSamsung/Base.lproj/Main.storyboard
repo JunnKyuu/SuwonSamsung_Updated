@@ -134,7 +134,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tintColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="X61-jy-qOE">
+                    <tabBarItem key="tabBarItem" title="Home" image="square.fill" catalog="system" id="X61-jy-qOE">
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <connections>
@@ -164,8 +164,8 @@
                                 <rect key="frame" x="37" y="95" width="340" height="340"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="출처: 수원삼성블루윙즈, 울산 현대 인스타그램" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvY-53-46Q">
-                                <rect key="frame" x="20" y="785" width="370" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="출처: 수원삼성블루윙즈, 성남FC 인스타그램" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvY-53-46Q">
+                                <rect key="frame" x="20" y="780" width="370" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ROKAF-Sans-Medium" family="ROKAF Sans" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -179,7 +179,7 @@
                         <viewLayoutGuide key="safeArea" id="kCS-77-zqS"/>
                         <color key="backgroundColor" systemColor="tintColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Line Up" image="square.and.pencil" catalog="system" id="f79-uZ-RpV"/>
+                    <tabBarItem key="tabBarItem" title="Line Up" image="square.fill" catalog="system" id="f79-uZ-RpV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vu-uq-hhK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,8 +187,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="homekit" catalog="system" width="128" height="106"/>
-        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
+        <image name="square.fill" catalog="system" width="128" height="114"/>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
