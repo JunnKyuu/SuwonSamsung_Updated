@@ -18,12 +18,6 @@ class ViewController: UIViewController {
         let gameTimeSafariView: SFSafariViewController = SFSafariViewController(url: gameTimeUrl! as URL)
         self.present(gameTimeSafariView, animated: true, completion: nil)
     } // 버튼에 경기 일정 url 연결
-        
-    @IBAction func lineUp(_ sender: UIButton) {
-        let lineUp = storyboard?.instantiateViewController(withIdentifier: "lineUp")
-        lineUp?.modalTransitionStyle = .coverVertical
-        present(lineUp!, animated: true, completion: nil)
-    } // 수원삼성블루윙즈 선발 라인업으로 가는 버튼
     
     @IBAction func goForecast(_ sender: UIButton) {
         // 경기장 날씨 url 연결
