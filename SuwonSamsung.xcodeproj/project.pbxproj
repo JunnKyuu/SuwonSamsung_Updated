@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F56FE754282CEFE60047AF56 /* UlsanHyndai.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE748282CEFE60047AF56 /* UlsanHyndai.png */; };
+		F56FE755282CEFE60047AF56 /* GangwonFC.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE749282CEFE60047AF56 /* GangwonFC.png */; };
+		F56FE756282CEFE60047AF56 /* FCSeoul.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE74A282CEFE60047AF56 /* FCSeoul.png */; };
+		F56FE757282CEFE60047AF56 /* SeongnamFC.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE74B282CEFE60047AF56 /* SeongnamFC.png */; };
+		F56FE758282CEFE60047AF56 /* IncheonUnited.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE74C282CEFE60047AF56 /* IncheonUnited.png */; };
+		F56FE759282CEFE60047AF56 /* KimcheonSangmu.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE74D282CEFE60047AF56 /* KimcheonSangmu.png */; };
+		F56FE75A282CEFE60047AF56 /* JeonbukHyundai.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE74E282CEFE60047AF56 /* JeonbukHyundai.png */; };
+		F56FE75B282CEFE60047AF56 /* DaeguFC.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE74F282CEFE60047AF56 /* DaeguFC.png */; };
+		F56FE75C282CEFE60047AF56 /* JejuUnited.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE750282CEFE60047AF56 /* JejuUnited.png */; };
+		F56FE75D282CEFE60047AF56 /* PohangSteelers.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE751282CEFE60047AF56 /* PohangSteelers.png */; };
+		F56FE75E282CEFE60047AF56 /* SuwonSamsung.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE752282CEFE60047AF56 /* SuwonSamsung.png */; };
+		F56FE75F282CEFE60047AF56 /* SuwonFC.png in Resources */ = {isa = PBXBuildFile; fileRef = F56FE753282CEFE60047AF56 /* SuwonFC.png */; };
 		F5ACF3B6280428FB0077873F /* lineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ACF3B5280428FB0077873F /* lineUpViewController.swift */; };
 		F5DC7F2728009970004358D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2628009970004358D4 /* AppDelegate.swift */; };
 		F5DC7F2928009970004358D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DC7F2828009970004358D4 /* SceneDelegate.swift */; };
@@ -19,6 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F56FE748282CEFE60047AF56 /* UlsanHyndai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UlsanHyndai.png; sourceTree = "<group>"; };
+		F56FE749282CEFE60047AF56 /* GangwonFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GangwonFC.png; sourceTree = "<group>"; };
+		F56FE74A282CEFE60047AF56 /* FCSeoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FCSeoul.png; sourceTree = "<group>"; };
+		F56FE74B282CEFE60047AF56 /* SeongnamFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeongnamFC.png; sourceTree = "<group>"; };
+		F56FE74C282CEFE60047AF56 /* IncheonUnited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IncheonUnited.png; sourceTree = "<group>"; };
+		F56FE74D282CEFE60047AF56 /* KimcheonSangmu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KimcheonSangmu.png; sourceTree = "<group>"; };
+		F56FE74E282CEFE60047AF56 /* JeonbukHyundai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JeonbukHyundai.png; sourceTree = "<group>"; };
+		F56FE74F282CEFE60047AF56 /* DaeguFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DaeguFC.png; sourceTree = "<group>"; };
+		F56FE750282CEFE60047AF56 /* JejuUnited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JejuUnited.png; sourceTree = "<group>"; };
+		F56FE751282CEFE60047AF56 /* PohangSteelers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PohangSteelers.png; sourceTree = "<group>"; };
+		F56FE752282CEFE60047AF56 /* SuwonSamsung.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SuwonSamsung.png; sourceTree = "<group>"; };
+		F56FE753282CEFE60047AF56 /* SuwonFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SuwonFC.png; sourceTree = "<group>"; };
 		F5ACF3B5280428FB0077873F /* lineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineUpViewController.swift; sourceTree = "<group>"; };
 		F5DC7F2328009970004358D4 /* SuwonSamsung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuwonSamsung.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DC7F2628009970004358D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,13 +73,6 @@
 				F5ACF3B5280428FB0077873F /* lineUpViewController.swift */,
 			);
 			path = page;
-			sourceTree = "<group>";
-		};
-		F56439C5280D47CF00DAE074 /* LineUp */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LineUp;
 			sourceTree = "<group>";
 		};
 		F5DC7F1A28009970004358D4 = {
@@ -102,7 +119,18 @@
 		F5DC7F3D28009A6A004358D4 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
-				F56439C5280D47CF00DAE074 /* LineUp */,
+				F56FE74F282CEFE60047AF56 /* DaeguFC.png */,
+				F56FE74A282CEFE60047AF56 /* FCSeoul.png */,
+				F56FE749282CEFE60047AF56 /* GangwonFC.png */,
+				F56FE74C282CEFE60047AF56 /* IncheonUnited.png */,
+				F56FE750282CEFE60047AF56 /* JejuUnited.png */,
+				F56FE74E282CEFE60047AF56 /* JeonbukHyundai.png */,
+				F56FE74D282CEFE60047AF56 /* KimcheonSangmu.png */,
+				F56FE751282CEFE60047AF56 /* PohangSteelers.png */,
+				F56FE74B282CEFE60047AF56 /* SeongnamFC.png */,
+				F56FE753282CEFE60047AF56 /* SuwonFC.png */,
+				F56FE752282CEFE60047AF56 /* SuwonSamsung.png */,
+				F56FE748282CEFE60047AF56 /* UlsanHyndai.png */,
 				F5DC7F3E28009A7A004358D4 /* SuwonSamsung_Emblem.png */,
 			);
 			path = ImageView;
@@ -166,11 +194,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56FE754282CEFE60047AF56 /* UlsanHyndai.png in Resources */,
+				F56FE75B282CEFE60047AF56 /* DaeguFC.png in Resources */,
+				F56FE75C282CEFE60047AF56 /* JejuUnited.png in Resources */,
+				F56FE75A282CEFE60047AF56 /* JeonbukHyundai.png in Resources */,
 				F5DC7F3328009971004358D4 /* LaunchScreen.storyboard in Resources */,
+				F56FE759282CEFE60047AF56 /* KimcheonSangmu.png in Resources */,
+				F56FE757282CEFE60047AF56 /* SeongnamFC.png in Resources */,
+				F56FE758282CEFE60047AF56 /* IncheonUnited.png in Resources */,
 				F5DC7F3028009971004358D4 /* Assets.xcassets in Resources */,
 				F5DC7F2E28009970004358D4 /* Main.storyboard in Resources */,
 				F5DC7F3F28009A7A004358D4 /* SuwonSamsung_Emblem.png in Resources */,
+				F56FE755282CEFE60047AF56 /* GangwonFC.png in Resources */,
 				F5DC7F3C280099C1004358D4 /* ROKAF-Sans-Medium.otf in Resources */,
+				F56FE75E282CEFE60047AF56 /* SuwonSamsung.png in Resources */,
+				F56FE756282CEFE60047AF56 /* FCSeoul.png in Resources */,
+				F56FE75F282CEFE60047AF56 /* SuwonFC.png in Resources */,
+				F56FE75D282CEFE60047AF56 /* PohangSteelers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
