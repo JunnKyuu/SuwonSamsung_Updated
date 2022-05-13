@@ -315,7 +315,9 @@
                         <viewLayoutGuide key="safeArea" id="2Oa-Au-riV"/>
                         <color key="backgroundColor" systemColor="tintColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Match" id="LCO-6v-mgt"/>
+                    <tabBarItem key="tabBarItem" title="Match" image="square.fill" catalog="system" id="LCO-6v-mgt">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="65f-Zr-7Jm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
