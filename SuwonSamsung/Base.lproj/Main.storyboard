@@ -461,6 +461,34 @@
             </objects>
             <point key="canvasLocation" x="-2781.1594202898555" y="-490.17857142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="UB0-6z-HB8">
+            <objects>
+                <viewController id="kPa-bG-ie0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xck-Mm-rez">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HC2-Q4-9ND">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Fnq-uC-2I6"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="abM-9u-m4a"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bMM-ss-13t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HC2-Q4-9ND" firstAttribute="leading" secondItem="bMM-ss-13t" secondAttribute="leading" id="I21-Df-xi5"/>
+                            <constraint firstItem="bMM-ss-13t" firstAttribute="trailing" secondItem="HC2-Q4-9ND" secondAttribute="trailing" id="Qpf-Ve-enm"/>
+                            <constraint firstItem="HC2-Q4-9ND" firstAttribute="top" secondItem="bMM-ss-13t" secondAttribute="top" id="Sa6-kd-c4b"/>
+                            <constraint firstAttribute="bottom" secondItem="HC2-Q4-9ND" secondAttribute="bottom" id="tvr-5D-Q3P"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJt-Vh-lRH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2701.449275362319" y="190.84821428571428"/>
+        </scene>
     </scenes>
     <resources>
         <image name="FCSeoul.png" width="64" height="64"/>
@@ -474,6 +502,9 @@
         <image name="SuwonSamsung.png" width="64" height="64"/>
         <image name="SuwonSamsung_Emblem.png" width="787" height="1024"/>
         <image name="square.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
